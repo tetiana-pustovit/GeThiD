@@ -1,5 +1,4 @@
-var http = require('http'),
-	data = '';
+var http = require('http');
 
 var server = http.createServer(function (req, res) {
 	var onEnd = function (data) {
